@@ -44,20 +44,57 @@ header > div > p {
 /* Corpo */
 
 #inicio {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.255), rgba(0, 0, 0, 0.867)), url('../img/violao.jpg');
-    border-radius: 0px 0px 40px 40px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.441), rgb(0, 0, 0)), url('../img/violao.jpg');
+    border-radius: 0px 0px 20px 20px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
     width: 100%;
-    height: 700px;
+    height: 750px;
     display: flex;
     flex-direction: column;
     justify-content: end;
-    padding: 20px;
+    padding: 30px;
 }
 
 #inicio > h1 {
     color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 2.4em;
+    line-height: 1em;
+    margin: 0px 15px 15px 15px;
+}
+
+.maisLaranja {
+    color: #FF6600;
+}
+
+.maisBranco {
+    color: white;
+    font-weight: bolder;
+}
+
+#inicio > p {
+    color: rgb(220, 220, 220);
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+#botão {
+    background-color: #008264;
+    height: 50px;
+    border-radius: 20px;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+
+#botão:hover{
+    background-color: #00614a;
 }
