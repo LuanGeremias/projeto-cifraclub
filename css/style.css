@@ -12,6 +12,7 @@ body {
 /* cabeça */
 
 header {
+    position: fixed;
     display: flex;
     justify-content: space-between;
     background-color: rgb(255, 255, 255);
@@ -45,7 +46,6 @@ header > div > p {
 
 #inicio {
     background-image: linear-gradient(rgba(0, 0, 0, 0.441), rgb(0, 0, 0)), url('../img/violao.jpg');
-    border-radius: 0px 0px 20px 20px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -101,3 +101,26 @@ header > div > p {
 
 /* Meio Lista */
 
+#meio-listas {
+    background-color: rgb(19, 19, 19);
+    color: white;
+    padding: 30px;
+    padding-top: 50px;
+}
+
+#meio-listas > div {
+    margin-bottom: 30px;
+}
+
+#meio-listas > div > ul > li > p {
+    color: rgb(167, 167, 167);
+    margin: 10px 0px 10px 0px;
+}
+
+#meio-listas > div > ul > li {
+    margin-left: 15px;
+}
+
+ul li::marker {
+    color: #FF6600;
+}
