@@ -108,7 +108,7 @@ header > div > p {
     padding-top: 50px;
 }
 
-#meio-listas > div {
+.conteudo-lista {
     margin-bottom: 30px;
 }
 
@@ -123,4 +123,16 @@ header > div > p {
 
 ul li::marker {
     color: #FF6600;
+}
+
+.imagem {
+    max-width: 600px;
+    padding: 20px 10px 10px 10px;
+    border-radius: 20px;
+    background-color: rgb(26, 25, 25);
+}
+
+.imagem > img {
+    width: 100%;
+    border-radius: 20px;
 }
