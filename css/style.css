@@ -9,6 +9,10 @@ body {
     background-color: rgb(226, 226, 226);
 }
 
+p {
+    color: rgb(220, 220, 220);
+}
+
 /* cabeça */
 
 header {
