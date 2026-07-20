@@ -10,7 +10,7 @@ body {
 }
 
 p {
-    color: rgb(220, 220, 220);
+    color: rgb(172, 172, 172);
 }
 
 /* cabeça */
@@ -106,7 +106,7 @@ header > div > p {
 /* Meio Lista */
 
 #meio-listas {
-    background-color: rgb(19, 19, 19);
+    background-color: rgb(13, 13, 13);
     color: white;
     padding: 30px;
     padding-top: 50px;
@@ -117,7 +117,6 @@ header > div > p {
 }
 
 #meio-listas > div > ul > li > p {
-    color: rgb(167, 167, 167);
     margin: 10px 0px 15px 0px;
 }
 
@@ -140,4 +139,43 @@ ul li::marker {
 .imagem > img {
     width: 100%;
     border-radius: 20px;
+}
+
+/* meio modulos */
+
+#modulos {
+    padding: 30px;
+    background-color: rgb(13, 13, 13);
+}
+
+#modulos > h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.modulos-filho {
+    background-color: rgb(33, 33, 33);
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.modulo-div {
+    background-color: #FF6600;
+    padding: 7px;
+    width: 71px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.modulo-div > p {
+    font-weight: bold;
+    font-size: 0.8em;
+    color: rgb(245, 245, 245);
+}
+
+.modulos-filho > h3 {
+    color: rgb(241, 241, 241);
+    margin-bottom: 5px;
 }
