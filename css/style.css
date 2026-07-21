@@ -6,7 +6,8 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgb(226, 226, 226);
+    background-color: #212121;
+
 }
 
 p {
@@ -87,7 +88,7 @@ header > div > p {
     margin-bottom: 15px;
 }
 
-#botão {
+.botão {
     background-color: #008264;
     height: 50px;
     border-radius: 20px;
@@ -146,6 +147,7 @@ ul li::marker {
 #modulos {
     padding: 30px;
     background-color: rgb(13, 13, 13);
+    border-radius: 20px;
 }
 
 #modulos > h2 {
@@ -155,7 +157,7 @@ ul li::marker {
 }
 
 .modulos-filho {
-    background-color: rgb(33, 33, 33);
+    background-color: #212121;
     padding: 20px;
     border-radius: 20px;
     margin-bottom: 20px;
@@ -178,4 +180,51 @@ ul li::marker {
 .modulos-filho > h3 {
     color: rgb(241, 241, 241);
     margin-bottom: 5px;
+}
+
+/* meio professor */
+
+#professor-container {
+    background-color: #212121;
+}
+
+#professor-container > h2 {
+    color: white;
+    text-align: center;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+#professor-container > #professor-filho {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.441), rgb(0, 0, 0)) ,url('../img/violao-4.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    
+}
+
+#professor-filho {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+#professor-filho > div {
+    padding: 30px;
+}
+
+#professor-filho > div > h3 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+}
+
+#professor-filho > div > p {
+    color: rgb(231, 231, 231);
+    margin-bottom: 20px;
+}
+
+#professor-filho > div > a {
+    display: inline-block;
 }
