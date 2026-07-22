@@ -89,7 +89,7 @@ header > div > p {
 }
 
 .botão {
-    background-color: #008264;
+    background-image: linear-gradient( #ff7920,#773000);
     height: 50px;
     border-radius: 20px;
     padding: 16px;
@@ -100,8 +100,8 @@ header > div > p {
     transition: 0.3s;
 }
 
-#botão:hover{
-    background-color: #00614a;
+.botão:hover{
+    background-color: #b14700;
 }
 
 /* Meio Lista */
@@ -239,5 +239,69 @@ h2 {
 .filho-compra {
     background-color: rgb(230, 230, 230);
     width: 100%;
-    height: 400px;
+    height: 350px;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.preços-um-e-dois {
+    display: flex;
+    justify-content: space-between;
+}
+
+.preços-um-e-dois > .vista{
+    color: #FF6600;
+    font-size: 2em;
+    font-weight: bolder;
+}
+
+.preços-R > .p1 {
+    text-align: end;
+    font-size: 2em;
+    font-weight: bolder;
+    color: #4a4a4a;
+}
+
+.p2 {
+    color: #747474;
+}
+
+#negocio-do-com-parcela-1 > p {
+    color: #747474;
+}
+
+.segunda-parte-preco {
+    display: flex;
+    flex-direction: column;
+    margin-top: 135px;
+}
+
+.segunda-parte-preco > p {
+    margin-bottom: 15px;
+    color: #6c6c6c;
+    font-weight: bold;
+}
+
+.filho-compra-2 {
+    background-color: #212121;
+    width: 100%;
+    height: 350px;
+    border-radius: 20px;
+    padding: 30px;
+    margin-top: 30px;
+}
+
+.preços-R2 > .p1-2 {
+    text-align: end;
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: #d2d2d2;
+}
+
+.p2-2 {
+    color: #919191;
+}
+
+#negocio-do-com-parcela-2 {
+    color: #919191;
 }
