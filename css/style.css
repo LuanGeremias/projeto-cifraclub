@@ -188,7 +188,7 @@ ul li::marker {
     background-color: #212121;
 }
 
-#professor-container > h2 {
+h2 {
     color: white;
     text-align: center;
     padding: 30px;
@@ -216,7 +216,7 @@ ul li::marker {
 }
 
 #professor-filho > div > h3 {
-    color: rgb(255, 255, 255);
+    color: #ff6f0f;
     margin-bottom: 5px;
 }
 
@@ -227,4 +227,17 @@ ul li::marker {
 
 #professor-filho > div > a {
     display: inline-block;
+}
+
+/* meio compra */
+
+#container-compra {
+    background-color: black;
+    padding: 30px;
+}
+
+.filho-compra {
+    background-color: rgb(230, 230, 230);
+    width: 100%;
+    height: 400px;
 }
