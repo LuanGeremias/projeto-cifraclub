@@ -234,6 +234,7 @@ h2 {
 #container-compra {
     background-color: black;
     padding: 30px;
+    border-radius: 0px 0px 20px 20px;
 }
 
 .filho-compra {
@@ -304,4 +305,12 @@ h2 {
 
 #negocio-do-com-parcela-2 {
     color: #919191;
+}
+
+/* rodape */
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    padding: 15px;
 }
